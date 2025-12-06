@@ -1,0 +1,350 @@
+{
+  "personalInfo": {
+    "name": "Venkatesan Murali",
+    "title": "Senior Software Engineer",
+    "summary": "Senior Software Engineer with 10+ years of experience designing and building scalable cloud solutions using AWS, Kubernetes, and Kafka. Specialized in architecting AI-driven systems leveraging OpenAI, Bedrock, and modern event-driven architectures. Passionate about driving engineering excellence and acting as a force multiplier by empowering teams to deliver robust, enterprise-grade solutions at scale.",
+    "email": "venkat.aj3@gmail.com",
+    "phone": "+1 (480) 859-2123",
+    "location": "Novi, Michigan",
+    "website": "",
+    "avatar": ""
+  },
+  "social": {
+    "github": "https://github.com/venkatesan91",
+    "linkedin": "https://linkedin.com/in/venkatesan-murali",
+    "twitter": ""
+  },
+  "experience": [
+    {
+      "company": "Rocket Mortgage",
+      "role": "Senior Software Engineer",
+      "startDate": "Sep 2023",
+      "endDate": "Present",
+      "location": "Remote",
+      "description": "Leading development of AI-driven solutions and mentoring engineering teams",
+      "responsibilities": [
+        "Designed and led the development of a Voice AI orchestration platform that automated 50% of outbound lead calls, dynamically generating conversation flows based on lead type (e.g., refinance or purchase). Collaborated on system architecture and integrated Twilio for multi-leg call routing, enabling seamless banker handoffs, reducing manual effort by 50%, and doubling lead engagement scalability.",
+        "Automated multilingual localization for the Rocket Mortgage Servicing Website by building an EKS pipeline triggered via CircleCI that translates English content (en.json) to Spanish (es.json) using a champion-challenger model to select the best LLM (OpenAI, Gemini, Anthropic) based on BLEU scores, enabling scalable translations and reducing manual effort.",
+        "Architected and enhanced the Rocket Mortgage Servicing chat application by integrating generative AI with Bedrock Agents for orchestration, enabling intelligent transfers to experts, bankers, and Kendra-powered knowledge bases. This improvement reduced containment rates by 30% and leveraged Nest.js backend, Angular Micro Frontend UI, AWS Lambda, and Kendra for seamless AI-driven support.",
+        "Mentored and guided multiple engineers across teams, fostering technical growth and best practices, and played a key role in helping several engineers achieve promotions."
+      ],
+      "technologies": [
+        "AWS EKS",
+        ".Net",
+        "PostgreSQL",
+        "Valkey",
+        "Twilio",
+        "LLM",
+        "Angular",
+        "CircleCI",
+        "Auth0",
+        "Bedrock",
+        "Lambda"
+      ]
+    },
+    {
+      "company": "Rocket Mortgage",
+      "role": "Software Engineer",
+      "startDate": "Jun 2019",
+      "endDate": "Sep 2023",
+      "location": "Remote",
+      "description": "Building scalable microservices and micro-frontends",
+      "responsibilities": [
+        "Optimized the Rocket Mortgage Servicing landing page by implementing lightweight Angular web components and refactoring data flow using async pipes and selective API calls, resulting in a 40% improvement in page load time and enhanced user experience.",
+        "Implemented comprehensive observability for Rocket Mortgage Servicing by integrating Dynatrace metrics across backend and frontend, adding anomaly detection, PagerDuty alerting, real user monitoring, and synthetic monitoring. This proactive approach improved client experience through faster issue detection and resolution.",
+        "Pioneered the use of React microfrontend within an Angular host using Module Federation by building a Purchase Calculator that enabled clients to estimate monthly mortgage payments with tax and insurance options. This innovation enhanced user experience and drove significant traffic growth on the Rocket Mortgage Servicing site."
+      ],
+      "technologies": [
+        "Angular",
+        "React",
+        "Node.js",
+        "Playwright",
+        "Dynatrace",
+        "Module Federation",
+        "Cypress"
+      ]
+    },
+    {
+      "company": "Token IQ, Inc",
+      "role": "Web Developer Co-Op",
+      "startDate": "Feb 2019",
+      "endDate": "May 2019",
+      "location": "Phoenix, AZ",
+      "description": "Blockchain-based fundraising platform development",
+      "responsibilities": [
+        "Developing a platform for fundraising (IPOs and ICOs) where Issuers and Investors can interact and exchange funds through coins or currencies."
+      ],
+      "technologies": [
+        "Angular",
+        "JavaScript",
+        "Stellar Network",
+        "Node.js"
+      ]
+    },
+    {
+      "company": "Esri",
+      "role": "Student Intern (Full Stack Developer)",
+      "startDate": "May 2018",
+      "endDate": "Aug 2018",
+      "location": "Redlands, CA",
+      "description": "Performance monitoring and analytics",
+      "responsibilities": [
+        "Collect, store and analyze statistics of ArcGIS Enterprise Data Store system like CPU, memory, disk IO and network usage, analyze performance in data store’s underlying databases like PostgreSQL and Elasticsearch.",
+        "Built a rest endpoint to expose the statistics result and displayed the results in a visualization tool in the Web UI using charts."
+      ],
+      "technologies": [
+        "Java",
+        "Highcharts.js",
+        "Jersey",
+        "SQLite",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "company": "EdPlus at Arizona State University",
+      "role": "Web Applications Developer",
+      "startDate": "Jan 2018",
+      "endDate": "Jan 2019",
+      "location": "Tempe, AZ",
+      "description": "Educational platform development",
+      "responsibilities": [
+        "Developed single page applications using React and integrated into edX studio to provide enriching course experience to students.",
+        "Connected Marketing Cloud with Salesforce instances to sync student data."
+      ],
+      "technologies": [
+        "React.js",
+        "Java",
+        "PostgreSQL",
+        "REST API"
+      ]
+    },
+    {
+      "company": "Lister Technologies Pvt Ltd",
+      "role": "Senior Software Engineer",
+      "startDate": "Jul 2015",
+      "endDate": "Jul 2017",
+      "location": "Chennai, India",
+      "description": "Salesforce development and integrations",
+      "responsibilities": [
+        "Implemented the support portal for Rosetta Stone Inc. which works in 13 different languages that answered most product related questions without any assistance from the support center. Consequently, this saved the company a lot of money by eliminating labor and call center costs.",
+        "Developed a self-checkout page with credit card authorization for an online health and legal service organization to automate their inventory management and purchases."
+      ],
+      "technologies": [
+        "Force.com",
+        "VisualForce",
+        "Apex",
+        "JavaScript",
+        "Bootstrap"
+      ]
+    },
+    {
+      "company": "Lister Technologies Pvt Ltd",
+      "role": "Software Engineer",
+      "startDate": "Jul 2013",
+      "endDate": "Jun 2015",
+      "location": "Chennai, India",
+      "description": "Salesforce integrations",
+      "responsibilities": [
+        "Implemented real time scalable integrations from a native inventory management system to Salesforce Sales Cloud for capturing product related data in Salesforce for Forecasts."
+      ],
+      "technologies": [
+        "Java",
+        "Salesforce REST API"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Voice AI Orchestration Platform",
+      "description": "AI-powered platform that automated 50% of outbound lead calls with dynamic conversation flows and multi-leg call routing",
+      "technologies": [
+        "AWS EKS",
+        ".Net",
+        "PostgreSQL",
+        "Valkey",
+        "Twilio",
+        "LLM"
+      ],
+      "featured": true
+    },
+    {
+      "title": "Multilingual Localization Pipeline",
+      "description": "EKS pipeline using champion-challenger LLM model to translate content from English to Spanish with BLEU score evaluation",
+      "technologies": [
+        "EKS",
+        ".Net",
+        "Angular",
+        "CircleCI",
+        "OpenAI",
+        "Gemini",
+        "Anthropic"
+      ],
+      "featured": true
+    },
+    {
+      "title": "AI-Powered Chat Application",
+      "description": "Generative AI chat with Bedrock Agents orchestration, reducing containment rates by 30%",
+      "technologies": [
+        "Nest.js",
+        "Angular",
+        "AWS Lambda",
+        "Bedrock",
+        "Kendra"
+      ],
+      "featured": true
+    },
+    {
+      "title": "React Microfrontend Integration",
+      "description": "Purchase Calculator built with React microfrontend within Angular host using Module Federation",
+      "technologies": [
+        "Module Federation",
+        "React",
+        "Angular",
+        "Cypress"
+      ],
+      "featured": false
+    },
+    {
+      "title": "Stack Overflow Recommendation Engine",
+      "description": "Web application to analyze user activity and recommend content based on search history using collaborative filtering",
+      "technologies": [
+        "Spring Boot",
+        "Java",
+        "React",
+        "MongoDB"
+      ],
+      "featured": false
+    },
+    {
+      "title": "NYC Taxi Hotspot Analysis",
+      "description": "System to analyze taxi usage patterns using Getis-Ord statistics and distributed Spark cluster",
+      "technologies": [
+        "Scala",
+        "Apache Spark"
+      ],
+      "featured": false
+    },
+    {
+      "title": "Brain Wave Human Identification",
+      "description": "Android app executing ML algorithms to detect humans using brain waves",
+      "technologies": [
+        "Java",
+        "Python",
+        "Android",
+        "AWS"
+      ],
+      "featured": false
+    }
+  ],
+  "education": [
+    {
+      "institution": "Arizona State University",
+      "degree": "Master of Science",
+      "field": "Computer Science",
+      "startDate": "2017",
+      "endDate": "2019",
+      "location": "Tempe, Arizona",
+      "gpa": "3.93 / 4.0"
+    },
+    {
+      "institution": "Anna University",
+      "degree": "Bachelor of Engineering",
+      "field": "Computer Science and Engineering",
+      "startDate": "2009",
+      "endDate": "2013",
+      "location": "Chennai, India",
+      "gpa": "8.01 / 10.0"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "skills": [
+        "C#",
+        ".NET",
+        "TypeScript",
+        "JavaScript",
+        "Node.js",
+        "Java",
+        "Python"
+      ]
+    },
+    {
+      "category": "Frontend Frameworks",
+      "skills": [
+        "Angular",
+        "React",
+        "D3.js"
+      ]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "skills": [
+        "AWS EKS",
+        "AWS ECS",
+        "AWS Lambda",
+        "AWS S3",
+        "Terraform",
+        "Google Cloud",
+        "CircleCI",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "category": "AI & LLM",
+      "skills": [
+        "OpenAI APIs",
+        "Gemini Models",
+        "AWS Bedrock",
+        "Google DialogFlow",
+        "Amazon Lex"
+      ]
+    },
+    {
+      "category": "Data & Streaming",
+      "skills": [
+        "Apache Kafka",
+        "PostgreSQL",
+        "DynamoDB",
+        "Redis",
+        "Valkey",
+        "MongoDB",
+        "SQL Server"
+      ]
+    },
+    {
+      "category": "Monitoring & Testing",
+      "skills": [
+        "Dynatrace",
+        "Splunk",
+        "AWS Cloudwatch",
+        "Cypress",
+        "Playwright",
+        "xUnit",
+        "Jasmine"
+      ]
+    },
+    {
+      "category": "Development Tools",
+      "skills": [
+        "GitHub Copilot",
+        "Claude Code",
+        "Lucidchart",
+        "Figma",
+        "WireMock",
+        "Moq"
+      ]
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    "English",
+    "Tamil"
+  ],
+  "interests": [
+    "Cloud Architecture",
+    "AI/ML",
+    "Mentoring",
+    "Open Source"
+  ]
+}

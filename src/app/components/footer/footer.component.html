@@ -1,0 +1,74 @@
+<footer class="bg-slate-900 text-slate-300 py-12">
+    <div class="container-custom px-4 md:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+
+            <!-- Brand -->
+            <div>
+                <h3 class="text-2xl font-bold gradient-text mb-4">
+                    Portfolio
+                </h3>
+                <p class="text-slate-400 text-sm">
+                    Built with Angular and TailwindCSS. Powered by passion and coffee.
+                </p>
+            </div>
+
+            <!-- Quick Links -->
+            <div>
+                <h4 class="font-semibold text-white mb-4">Quick Links</h4>
+                <nav class="space-y-2">
+                    <button (click)="scrollToSection('about')"
+                        class="block text-slate-400 hover:text-primary-400 transition-colors text-sm">
+                        About
+                    </button>
+                    <button (click)="scrollToSection('experience')"
+                        class="block text-slate-400 hover:text-primary-400 transition-colors text-sm">
+                        Experience
+                    </button>
+                    <button (click)="scrollToSection('projects')"
+                        class="block text-slate-400 hover:text-primary-400 transition-colors text-sm">
+                        Projects
+                    </button>
+                    <button (click)="scrollToSection('skills')"
+                        class="block text-slate-400 hover:text-primary-400 transition-colors text-sm">
+                        Skills
+                    </button>
+                    <button (click)="scrollToSection('contact')"
+                        class="block text-slate-400 hover:text-primary-400 transition-colors text-sm">
+                        Contact
+                    </button>
+                </nav>
+            </div>
+
+            <!-- Tech Stack -->
+            <div>
+                <h4 class="font-semibold text-white mb-4">Built With</h4>
+                <div class="flex flex-wrap gap-2">
+                    <span class="text-xs px-2 py-1 bg-slate-800 rounded">Angular 18</span>
+                    <span class="text-xs px-2 py-1 bg-slate-800 rounded">TailwindCSS</span>
+                    <span class="text-xs px-2 py-1 bg-slate-800 rounded">TypeScript</span>
+                    <span class="text-xs px-2 py-1 bg-slate-800 rounded">PDF.js</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Divider -->
+        <div class="border-t border-slate-800 pt-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-sm text-slate-400">
+                    © {{ currentYear }} All rights reserved.
+                </p>
+
+                <!-- Scroll to top button -->
+                <button (click)="scrollToTop()"
+                    class="group flex items-center gap-2 text-sm text-slate-400 hover:text-primary-400 transition-colors">
+                    <span>Back to top</span>
+                    <svg class="w-4 h-4 group-hover:-translate-y-1 transition-transform" fill="none"
+                        stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M5 10l7-7m0 0l7 7m-7-7v18" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</footer>

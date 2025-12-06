@@ -1,0 +1,70 @@
+<div class="min-h-screen bg-white dark:bg-slate-900 transition-colors duration-300">
+
+  <!-- Loading state -->
+  <div *ngIf="isLoading" class="fixed inset-0 flex items-center justify-center bg-white dark:bg-slate-900 z-50">
+    <div class="text-center">
+      <div class="w-16 h-16 border-4 border-primary-500 border-t-transparent rounded-full animate-spin mx-auto mb-4">
+      </div>
+      <p class="text-slate-600 dark:text-slate-400">Loading portfolio...</p>
+    </div>
+  </div>
+
+  <!-- Main content -->
+  <div *ngIf="!isLoading">
+    <!-- Navbar -->
+    <app-navbar></app-navbar>
+
+    <!-- Hero Section -->
+    <app-introduction [personalInfo]="resume?.personalInfo || null" [social]="resume?.social || null">
+    </app-introduction>
+
+    <!-- About Section -->
+    <app-about [personalInfo]="resume?.personalInfo || null">
+    </app-about>
+
+    <!-- Experience Section -->
+    <app-experience [experiences]="resume?.experience || []">
+    </app-experience>
+
+    <!-- Education Section -->
+    <app-education [education]="resume?.education || []">
+    </app-education>
+
+    <!-- Projects Section -->
+    <app-projects [projects]="resume?.projects || []">
+    </app-projects>
+
+    <!-- Skills Section -->
+    <app-skills [skillCategories]="resume?.skills || []">
+    </app-skills>
+
+    <!-- Contact Section -->
+    <app-contact [personalInfo]="resume?.personalInfo || null" [social]="resume?.social || null">
+    </app-contact>
+
+    <!-- Footer -->
+    <app-footer></app-footer>
+
+    <!-- Parse error notification (if needed) -->
+    <div *ngIf="parseError"
+      class="fixed bottom-4 right-4 max-w-sm bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg p-4 shadow-lg">
+      <div class="flex items-start gap-3">
+        <svg class="w-5 h-5 text-yellow-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+        </svg>
+        <div>
+          <h4 class="font-semibold text-yellow-800 dark:text-yellow-200 text-sm">
+            Using Fallback Data
+          </h4>
+          <p class="text-xs text-yellow-700 dark:text-yellow-300 mt-1">
+            Resume PDF parsing encountered issues. Displaying sample data.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Router outlet for future routing -->
+  <router-outlet></router-outlet>
+</div>
