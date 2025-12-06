@@ -9,7 +9,7 @@ export const RESUME_DATA: Resume = {
         "phone": "+1 (480) 859-2123",
         "location": "Novi, Michigan",
         "website": "",
-        "avatar": "/assets/profile.jpg"
+        "avatar": "assets/profile.jpg"
     },
     "social": {
         "github": "https://github.com/venkatesan91",
